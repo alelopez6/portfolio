@@ -1,0 +1,102 @@
+ol, ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  background-color: #2C3E50;
+  align-items: center;
+  justify-content: space-between;
+}
+header a i {
+  color: green;
+  font-size: 3em;
+  padding: 0.5em;
+}
+header nav ul {
+display: flex;
+gap: 1.3em;
+padding: 2em;
+}
+header nav ul li {
+  color: antiquewhite;
+  font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #900C3F; 
+    font-family: "Roboto", sans-serif; 
+    height: 1200px;
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: whitesmoke;
+    font-size: medium;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+      }
+      
+      .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+           
+}
+
+.section-1 {
+background-color: antiquewhite;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5em;
+}
+.acerca-de {
+  display: flex;
+  justify-content: left;
+  margin: 0;
+  padding: 0 ;
+}
+.acerca-imagen {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  padding: 5em;
+}
+.acerca-de h2 {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  color: beige;
+  font-family: "Roboto", sans-serif;
+  padding-left: 8em;
+  padding-top: 5em;
+}
+.acerca-de parrafo-1 {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  color: beige;
+  font-family: "Roboto", sans-serif;
+  padding-top: 7em;
+}
+footer h2 {
+  font-family: "Roboto", sans-serif;
+  color: antiquewhite;
+  padding: 1em;
+}
+footer {
+  background-color: #2C3E50;
+  margin: 0;
+  padding: 0;
+}
+footer nav ul li {
+  color: antiquewhite;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  column-gap: 0.1em;
+  padding: 1.5em;
+}
